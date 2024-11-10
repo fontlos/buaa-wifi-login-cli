@@ -1,12 +1,12 @@
 [package]
 name = "buaa_wifi_login_cli"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Fontlos <fontlos@fontlos.com>"]
 edition = "2021"
 readme = "Readme.md"
 
 [dependencies]
-buaa_api = { git = "https://github.com/fontlos/buaa-api" }
+buaa_api = { git = "https://github.com/fontlos/buaa-api", rev = "f8b99b8" }
 clap = { version = "4.5.20", features = ["derive"] }
 serde = { version = "1.0.204", features = ["derive"] }
 serde_json = "1.0.122"
