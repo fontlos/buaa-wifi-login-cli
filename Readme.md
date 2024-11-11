@@ -15,6 +15,5 @@ A cli can help you login to BUAA-WiFi fast
     buaa-wifi-login-cli -u <username> -p <password>
    ```
 4. Create a shortcut for the cli and put it into the boot auto-start folder
-5. Open the Local Group Policy Editor, navigate to `Computer Configuration - Administrative Templates - System - Internet Communication Settings - Turn off Windows Network Connection Status Indicator active tests` and enable this
 
 In this way, your computer will automatically login to `BUAA-WiFi` after it is automatically connected to `BUAA-WiFi` after booting up, and there will be no browser login window forced to pop up
